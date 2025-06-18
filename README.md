@@ -63,5 +63,3 @@ APDProject is a web-based management system for a police department. It allows o
 - Bootstrap and Bootstrap Icons for UI
 
 ---
-
-*This README is a template. Please update it with your specific project
