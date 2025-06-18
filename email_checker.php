@@ -18,7 +18,7 @@
             $code = random_int(100000, 999999);
             $stmt = $pdo->prepare('UPDATE civils SET Verify_Code = ?');
             if($stmt->execute([$code])){
-                $mail->setFrom('issimo181@gmail.com', 'Contact Form LASD Verification');
+                $mail->setFrom('YOU_EMAIL', 'Contact Form LASD Verification');
                 $mail->addAddress($email);
                 $mail->Subject = 'Code Verification';
                 $mail->Body = "
